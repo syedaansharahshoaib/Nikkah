@@ -42,7 +42,6 @@ $("profile-groom").textContent = INVITE.groom;
 $("profile-bride-family").innerHTML = INVITE.brideFamily.replace(/\n/g, "<br>");
 $("profile-groom-family").innerHTML = INVITE.groomFamily.replace(/\n/g, "<br>");
 $("revealed-date").textContent = INVITE.dateText;
-$("rsvp-note").textContent = INVITE.rsvpNote;
 $("foot-names").textContent = `${INVITE.bride} & ${INVITE.groom}`;
 $("intro-b").textContent = initial(INVITE.bride);
 $("intro-g").textContent = initial(INVITE.groom);
